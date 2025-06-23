@@ -36,12 +36,12 @@ public:
 	}
 
 	String& operator=(const String& othear);                         //= копированием
-	String& operator=(String && othear) noexcept;					 //= с move
-	String& operator+=(const String& othear);		                 //String += String
-	String operator+(const String& othear);			                 //String + String
-	String operator+(const char* othear);			                 //String + char[]
+	String& operator=(String && othear) noexcept;		         //= с move
+	String& operator+=(const String& othear);		         //String += String
+	String operator+(const String& othear);			         //String + String
+	String operator+(const char* othear);			         //String + char[]
 	friend String operator+(const char* l, const String& r);         //char[] + String
-	String& operator+=(const char* othear);			                 //String += char[]
+	String& operator+=(const char* othear);			         //String += char[]
 
 	const char* c_str() { return symbol; };                          //получение C-строки
 	size_t len_str() { return strlen(symbol); };                     //длина строки
