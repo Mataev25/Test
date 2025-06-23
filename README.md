@@ -1,7 +1,7 @@
 # Test 
 ## Реализация класса динамических строк 'String'
 Для написания класса использовалась стандартная библиотка C<br>
-#include <cstring> для функций strlen(), strcpy().
+#include <cstring> для функций strlen(), strcpy().<br><br>
 Библиотека С++ тоже есть, но исключительно для демонстрации примера<br>
 #include <algorithm> для sort();<br>
 #include <vector> соответственно для vector<br>
